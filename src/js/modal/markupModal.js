@@ -26,8 +26,8 @@ export const markupModal = ({title, vote_average, vote_count, popularity, origin
                 <p>${overview}</p>
                 </div>
                 <ul class='modal__button--listV' >
-                    <li><button  type='button' class='modal__watchV'>add to Watched</button></li>
-                    <li><button type='button'  class='modal__queV'>add to queue</button></li>
+                    <li><button  type='button' class='modal__watchV remove '>add to Watched</button></li>
+                    <li><button type='button'  class='modal__queV removeQ'>add to queue</button></li>
                 
             </div>
         </div>

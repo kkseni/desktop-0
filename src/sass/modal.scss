@@ -245,10 +245,13 @@ border-radius: 5px;
     line-height: 1.33;
     cursor: pointer;
 
-    @media screen and (max-width: 769.5px) {
-            padding: 6px 27px;
+        @media screen and (max-width: 769.5px) {
+            //    padding: 13px 11px 13px 13px;
             max-width: 161px;
+            width: 100%;
+            padding: 13px 7px 13px 7px;
         }
+                 
 }
 
 .modal__queV {
