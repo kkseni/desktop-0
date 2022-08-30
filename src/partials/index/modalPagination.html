@@ -1,9 +1,9 @@
- <button class="pagination__button " data-modal-open type="button">...</button>
-            <div class="backdrop is-hidden" data-modal>
+ <button class="pagination__button " modal-pagination-open type="button">...</button>
+            <div class="backdrop is-hidden" modal-pagination>
             <div class="modal">
-                <button class="close closeV'" data-modal-close type="button">
-            <svg class="ico" version="1.1" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 32 32">
-                
+                <button class="close closeV'" modal-pagination-close type="button">
+            <svg  width="11px" height="11px">
+                <use href="./images/icons.svg#icon-close"></use>
             </svg>
                 </button>
                 <form class="form">
@@ -13,14 +13,14 @@
                             <li class="form__item">
                             <label for="name" class="form__label">Введіть номер сторінки для переходу</label>  
                <span class="form__span">  
-                   <input type="text" name="name" id="name" class="form__input"/></span>
+                   <input type="text" name="name" id="pagination-input" class="form__input"/></span>
                </li>
                
                 </ul>
                 </div>
                 <ul class="form_list">
                 <button type="submit" class="button_ok">Надіслати</button>
-                <button type="submit" class="button_no">Скасувати</button></ul>
+                <button type="submit" class="button_no" modal-pagination-close>Скасувати</button></ul>
                 </form>
             </div>    
 

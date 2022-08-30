@@ -1,6 +1,6 @@
 .remove{
     
-        border: 2px solid #ff6b01;
+        border: 2px solid var(--bg-color-modal-orange);
         border-radius: 5px;
         font-family: Roboto;
         font-style: normal;
@@ -9,19 +9,19 @@
         line-height: 16px;
         transition: all .2s;
         text-transform: uppercase;
-        color: #ff6b01;
+        color: var(--bg-color-modal-orange);
         background-color: initial;
     }
  .remove:active {
     transform: translateY(-1px);
-    box-shadow: 0 5px 10px #ff6b01;
+    box-shadow: 0 5px 10px var(--bg-color-modal-orange);
 }
 .remove:hover:after {
     transform: scaleX(1.4) scaleY(1.6);
 }
 
 .removeQ{
-    border: 2px solid #ff6b01;
+    border: 2px solid var(--bg-color-modal-orange);
     border-radius: 5px;
     font-family: Roboto;
     font-style: normal;
@@ -30,13 +30,13 @@
     line-height: 16px;
     transition: all .2s;
     text-transform: uppercase;
-    color: #000;
-    background-color: #ff6b01;
+    color: var(--text-color-black);
+    background-color: var(--bg-color-modal-orange);
 }
 
 .removeQ:active {
     transform: translateY(-1px);
-    box-shadow: 0 5px 10px #ff6b01;
+    box-shadow: 0 5px 10px var(--bg-color-modal-orange);
 }
 
 .removeQ:hover:after {

@@ -5,6 +5,7 @@ import { modal } from './js/modal/modal';
 import { close } from './js/modal/getPost';
 import './js/notify-params/notify-styles';
 import './js/modal/modalPagination';
+
 const throttle = require('lodash.throttle');
 
 const movieAPiServer = new MovieAPiServer();
